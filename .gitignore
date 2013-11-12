@@ -1,1 +1,8 @@
 wp-config.php
+wp-config-local.php
+
+/wp-content/upgrade/
+
+license.txt
+.log
+.DS_Store

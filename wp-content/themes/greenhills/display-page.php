@@ -14,7 +14,7 @@
 		<div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
 		<?php
 
-			$entries = RGFormsModel::get_leads($form_id, $star);
+			$entries = RGFormsModel::get_leads($form_id, $star); ?>
 			<ul class="entry-list">
 			
 			<?php foreach($entries as $entry){ ?>
